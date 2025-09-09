@@ -8,5 +8,52 @@ Luo lopuksi GitHubiin kurssia varten oma repository ja sen alle kansio Workshop1
 
 Palautus: Palauta linkki GitHubissa luomaasi kansioon Workshop 1.
 
-
 Palautus arvioidaan hyväksytty/hylätty -aseteikolla.
+
+
+document.write("Hello World!); // Press Shift+Enter here
+alert("Hello World!"); // Press Shift+Enter here
+console.log(“Hello World”) // Enter here
+
+
+var x = 5;
+var y = 6;
+var z = x + y;
+console.log(z);
+alert(z);
+document.write(z);
+
+
+var x = 50; // Press Shift+Enter here
+var order = 'Beer'; // Press Shift+Enter here
+if (x > 50) {
+document.write("He's over 50!" );
+} else if (x <= 50 && x> 30){
+document.write("Middle aged man, who ordered some "+order);
+} else {
+document.write("It seems you're bit underaged.");
+}
+
+
+var arr = [];
+for (var i=0; i<15; i++) {
+arr.push(Math.random());
+
+
+function addNumbers(a, b) {
+return a + b;
+
+}
+console.log(addNumbers(5, 10));
+
+
+// Define an object to hold person data
+var person = {
+firstName:"John",
+lastName:"Doe",
+age:50,
+eyeColor:"blue"
+};
+console.log(person.age);
+
+
