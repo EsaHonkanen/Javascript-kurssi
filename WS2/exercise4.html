@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Check</title>
+  <script>
+    function checkStudent() {
+      
+      var isStudent = confirm("Are you a student?");
+      
+      
+      if (isStudent) {
+        document.write("<h2>Welcome student</h2>");
+      } else {
+        document.write("<h2>Sorry, this page is for students only</h2>");
+      }
+    }
+  </script>
+</head>
+<body onload="checkStudent()">
+</body>
+</html>
