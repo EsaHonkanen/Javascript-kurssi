@@ -38,7 +38,7 @@ Testauksessa en huomannut bugeja.
 
 ## Kuvakaappaukset
 Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta  
-`![Todo-sovellus](images/Todo-sovellus.png)`
+![Todo-sovellus](images/Todo-sovellus.png)
 
 ## Teknologiat
 Projektissa on käytetty html, css sekä Javascriptiä.
@@ -51,6 +51,6 @@ Projektissa on käytetty html, css sekä Javascriptiä.
 ## Kiitokset
 Projektissa on käytetty apuna kurssin sisältöä, W3schoolia sekä Chatgpt:tä. Chatgpt:tä käytetty lähinnä virheiden korjaamiseen ja css tyyleihin. W3school ja kurssin sisällöistä tarkistettu oikeanlaisia malleja.  
 - [Chatgpt](https://chatgpt.com)  
-- [W3School](https://W3school.com)  
+- [W3Schools](https://W3schools.com)  
 
 ## Lisenssi
