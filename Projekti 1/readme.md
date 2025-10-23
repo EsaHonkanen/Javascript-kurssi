@@ -44,6 +44,7 @@ Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta
 Projektissa on käytetty html, css sekä Javascriptiä.
 
 ## Asennus 
+- Mene osoitteeseen https://esantodosovellus.netlify.app käyttääksesi sovellusta
 - lataa Projekti 1 kansion tiedostot ja avaa index.html selaimessasi  
 - lataa tai kloonaa repositorio  
 
