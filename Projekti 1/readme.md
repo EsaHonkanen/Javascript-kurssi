@@ -38,9 +38,7 @@ Testauksessa en huomannut bugeja.
 
 ## Kuvakaappaukset
 Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta  
-`![Kirjoittaminen](https://unsplash.com/photos/VBPzRgd7gfc)`
-
-Kuva: [Kelly Sikkema](https://unsplash.com/@kellysikkema)
+`![Todo-sovellus](images/Todo-sovellus.png)`
 
 ## Teknologiat
 Projektissa on käytetty html, css sekä Javascriptiä.
