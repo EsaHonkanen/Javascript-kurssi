@@ -9,11 +9,11 @@ Linkki projektin videoesittelyyn [google.com](https://google.com)
 Tein tehtävän yksin.
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
-Mielestäni onnistuin luomaan yksinkertaisen tehtäväkuvauksen mukaisen sovelluksen mikä toimii.
+Mielestäni onnistuin tehtävässä ihan hyvin ja minimivaatimukset täyttyivät.
 Parantamista olisi sovelluksen visuaalisuudessa.
 Sovelluksesta jäi puuttumaan laskuri, joka laskee käynnissä olevien tehtävien määrän.
-Koen, että olen oppinut kaikenlaista.
-Antaisin itselleni pisteitä seuraavasti: 8/10 p
+Koen, että olen oppinut paljon suhteutettuna tuntien määrään.
+Antaisin itselleni pisteitä seuraavasti: 7/10 p
 
 ## Palaute opettajalle kurssista sekä itse opetuksesta tähän saakka
 Kurssi on ollut tähän mennessä hyvä ja lähiopetuksesta on ainakin itselle ollut apua. Olen tykännyt siitä, että osaa tehtävistä käydään yhdessä läpi.
@@ -44,13 +44,11 @@ Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta
 Projektissa on käytetty html, css sekä Javascriptiä.
 
 ## Asennus 
-- lataa kaikki tiedostot ja avaa index.html selaimessasi  
+- lataa Projekti 1 kansion tiedostot ja avaa index.html selaimessasi  
 - lataa tai kloonaa repositorio  
 
 
 ## Kiitokset
-Projektissa on käytetty apuna kurssin sisältöä, W3schoolia sekä Chatgpt:tä. Chatgpt:tä käytetty lähinnä virheiden korjaamiseen ja css tyyleihin. W3school ja kurssin sisällöistä tarkistettu oikeanlaisia malleja.  
+Projektissa on käytetty apuna kurssin sisältöä, W3schoolia, Youtubea sekä Chatgpt:tä. Chatgpt:tä käytetty lähinnä virheiden korjaamiseen ja css tyyleihin. W3school ja kurssin sisältöä käytin perusasioden kertaamiseen. Katsoin myös satunnaisia youtube videoita.  
 - [Chatgpt](https://chatgpt.com)  
-- [W3Schools](https://W3schools.com)  
-
-## Lisenssi
+- [W3Schools](https://W3schools.com)
