@@ -38,7 +38,7 @@ Testauksessa en huomannut bugeja.
 
 ## Kuvakaappaukset
 Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta  
-`![Todo-sovellus](images/Todo-sovellus.png)`
+`![Todo-sovellus](../images/Todo-sovellus.png)`
 
 ## Teknologiat
 Projektissa on käytetty html, css sekä Javascriptiä.
