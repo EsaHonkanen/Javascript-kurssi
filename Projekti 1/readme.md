@@ -1,24 +1,22 @@
 # Projektin nimi ja tekijät
-Projektin nimi ja kaikki mukana olevat tekijät. 
+Todo lista , tekijät: Esa Honkanen
 
 ## Verkkolinkit:
 Pääset julkaistuun sovellukseen käsiksi osoitteessa [google.com](https://google.com)
 Linkki projektin videoesittelyyn [google.com](https://google.com)
 
 ## Työn jakautuminen 
-Miten työmäärä jaettiin? Kuka teki mitä? Miten yhteistyö sujui?
+Tein tehtävän yksin.
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
-Mielestäni onnistuin...
-Parantamista olisi...
-Sovelluksesta jäi puuttumaan...
-Koen, että olen oppinut...
-Epäselväksi jäi...
-Antaisin itselleni pisteitä seuraavasti: xx/yy p
+Mielestäni onnistuin luomaan yksinkertaisen tehtäväkuvauksen mukaisen sovelluksen mikä toimii.
+Parantamista olisi sovelluksen visuaalisuudessa.
+Sovelluksesta jäi puuttumaan laskuri, joka laskee käynnissä olevien tehtävien määrän.
+Koen, että olen oppinut kaikenlaista.
+Antaisin itselleni pisteitä seuraavasti: 8/10 p
 
 ## Palaute opettajalle kurssista sekä itse opetuksesta tähän saakka
-Kurssi sekä lähiopetus ovat tuntuneet... 
-Oppimistani tukisi jos...
+Kurssi on ollut tähän mennessä hyvä ja lähiopetuksesta on ainakin itselle ollut apua. Olen tykännyt siitä, että osaa tehtävistä käydään yhdessä läpi.
 
 
 ## Sisällysluettelo:
@@ -33,10 +31,10 @@ Oppimistani tukisi jos...
 - [Lisenssi](#lisenssi)
 
 ## Tietoja sovelluksesta
-[Projektin nimi] on sovellus, joka ...
+Todo-lista on sovellus, johon voi lisätä listan tavoin asioita mitä pitäisi saada tehtyä. Asioita voi merkitä tehdyksi ja niitä voi poistaa.
 
 ## Tunnetut virheet/bugit
-Kerro jos tiedät sovelluksessa olevan jotain, mikä ei toimi tai toimii heikosti
+Testauksessa en huomannut bugeja.
 
 ## Kuvakaappaukset
 Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta  
@@ -45,20 +43,16 @@ Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta
 Kuva: [Kelly Sikkema](https://unsplash.com/@kellysikkema)
 
 ## Teknologiat
-Kuvaa, mitä teknologioita käytettiin ja mikä oli niiden rooli projektissasi.  
-Käytin seuraavia teknologioita: `html`, `css`, ...
+Projektissa on käytetty html, css sekä Javascriptiä.
 
-## Asennus
-Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi:  
+## Asennus 
 - lataa kaikki tiedostot ja avaa index.html selaimessasi  
 - lataa tai kloonaa repositorio  
-- suorita `npm install`  
-- ...
+
 
 ## Kiitokset
-Lista lähteistä ja esimerkeistä, joita käytit projektin aikana. Mainitse myös, jos käytit ChatGPT:tä tai muita tekoälytyökaluja koodauksen aikana ja kerro, miten ne auttoivat sinua.  
-- [John Doe](johndoe.com)  
-- [Beginners guide to BEM](link-goes-here.com)  
+Projektissa on käytetty apuna kurssin sisältöä, W3schoolia sekä Chatgpt:tä. Chatgpt:tä käytetty lähinnä virheiden korjaamiseen ja css tyyleihin. W3school ja kurssin sisällöistä tarkistettu oikeanlaisia malleja.  
+- [Chatgpt](Chatgpt.com)  
+- [W3School](W3school.com)  
 
 ## Lisenssi
-Valitse projektille lisenssi seuraamalla tätä [opasta](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
