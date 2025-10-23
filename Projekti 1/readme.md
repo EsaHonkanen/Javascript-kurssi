@@ -2,7 +2,7 @@
 Todo lista , tekijät: Esa Honkanen
 
 ## Verkkolinkit:
-Pääset julkaistuun sovellukseen käsiksi osoitteessa [google.com](https://google.com)
+Pääset julkaistuun sovellukseen käsiksi osoitteessa [Esan Todo-sovellus](https://esantodosovellus.netlify.app/)
 Linkki projektin videoesittelyyn [google.com](https://google.com)
 
 ## Työn jakautuminen 
