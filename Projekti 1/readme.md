@@ -50,7 +50,7 @@ Projektissa on käytetty html, css sekä Javascriptiä.
 
 ## Kiitokset
 Projektissa on käytetty apuna kurssin sisältöä, W3schoolia sekä Chatgpt:tä. Chatgpt:tä käytetty lähinnä virheiden korjaamiseen ja css tyyleihin. W3school ja kurssin sisällöistä tarkistettu oikeanlaisia malleja.  
-- [Chatgpt](Chatgpt.com)  
-- [W3School](W3school.com)  
+- [Chatgpt](https://chatgpt.com)  
+- [W3School]https://(W3school.com)  
 
 ## Lisenssi
