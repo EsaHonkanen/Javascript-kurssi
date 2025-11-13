@@ -2,7 +2,7 @@
 Artist info app , tekijä: Esa Honkanen
 
 ## Verkkolinkit:
-Pääset julkaistuun sovellukseen käsiksi osoitteessa [google.com](https://google.com)
+Pääset julkaistuun sovellukseen käsiksi osoitteessa [artistinfoapp](https://artistinfoapp.netlify.app/)
 Linkki projektin videoesittelyyn [google.com](https://google.com)
 
 ## Työn jakautuminen 
@@ -45,7 +45,7 @@ Projektissa on käytetty Html, javascript ja css kieliä.
 ## Asennus
 Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi:  
 - lataa kaikki tiedostot ja avaa index.html selaimessasi  
-- Tai mene osoitteeseen: 
+- Tai mene osoitteeseen: (https://artistinfoapp.netlify.app/)
 
 ## Kiitokset
 Projektissa on hyödynnetty kurssilla opittua sekä erityisesti edellistä tehtävää Workshop 7. Apuna on käytetty youtubesta löytyviä tutoriaaleja sekä chatGPT:tä. Chatgpt:llä etsitty yksittäisiä korjauksia mitä en youtubesta löytänyt.
