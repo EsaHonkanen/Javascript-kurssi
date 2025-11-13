@@ -4,15 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Music Info App – Last.fm API</title>
-  <!-- Liitetään ulkoinen CSS-tyylitiedosto -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🎵 Music Info App (Last.fm)</h1>
+  <h1>🎵 Music Info App</h1>
   <p>Hae artistin tietoja ja albumeja Last.fm:stä</p>
 
   <!-- Käyttäjän hakukenttä ja hakupainike -->
-  <input type="text" id="artistInput" placeholder="Esim. Daft Punk">
+  <input type="text" id="artistInput" placeholder="Esim: Drake">
   <button id="searchBtn">Hae</button>
 
   <!-- Tänne lisätään artistin tiedot dynaamisesti -->
@@ -21,7 +20,7 @@
   <div id="albums"></div>
 
   <script>
-    // 🔑 Lisää tähän oma Last.fm API key
+    // Oma API-key
     const apiKey = "9bb5d7e2f4d24efeb8dbd8be973743d8";
 
     // Haetaan viittaus hakupainikkeeseen ja lisätään klikkauskuuntelija
@@ -38,7 +37,7 @@
       const albumUrl = `https://ws.audioscrobbler.com/2.0/?method=artist.getTopAlbums&artist=${encodeURIComponent(artist)}&api_key=${apiKey}&format=json`;
 
       try {
-        // Haetaan molemmat API-kutsut samanaikaisesti (nopeampaa)
+        // Haetaan molemmat API-kutsut samanaikaisesti 
         const [artistRes, albumRes] = await Promise.all([
           fetch(artistUrl),
           fetch(albumUrl)
@@ -58,7 +57,7 @@
       }
     }
 
-    // 🎤 Näyttää artistin nimen, kuvan ja biografian
+    // Näyttää artistin nimen, kuvan ja biografian
     function displayArtist(artist) {
       const infoDiv = document.getElementById("artistInfo");
       infoDiv.innerHTML = `
@@ -68,7 +67,7 @@
       `;
     }
 
-    // 💿 Näyttää artistin suosituimmat albumit
+    // Näyttää artistin suosituimmat albumit
     function displayAlbums(albums) {
       const container = document.getElementById("albums");
       container.innerHTML = ""; // Tyhjennetään vanhat tulokset
