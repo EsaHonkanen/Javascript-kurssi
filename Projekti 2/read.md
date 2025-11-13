@@ -1,5 +1,5 @@
 # Projektin nimi ja tekijät
-Music info app , tekijä: Esa Honkanen
+Artist info app , tekijä: Esa Honkanen
 
 ## Verkkolinkit:
 Pääset julkaistuun sovellukseen käsiksi osoitteessa [google.com](https://google.com)
@@ -29,14 +29,14 @@ Kurssi on ollut tähän mennessä hyvä ja lähiopetuksesta on ainakin itselle o
 - [Lisenssi](#lisenssi)
 
 ## Tietoja sovelluksesta
-Music info app on sovellus, jolla voit etsiä tietoa erilaisista artisteista. Tuloksena haulle on lyhyt esittely artistista sekä kokoelma suosituimmista albumeista kuuntelukertojen kera.
+Artist info app on sovellus, jolla voit etsiä tietoa erilaisista artisteista. Tuloksena haulle on lyhyt esittely artistista sekä kokoelma suosituimmista albumeista kuuntelukertojen kera.
 
 ## Tunnetut virheet/bugit
 En törmännyt bugeihin testauksessa.
 
 ## Kuvakaappaukset
 Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta  
-![Music info app](images/Music%20info%20app.png)
+![Artist info app](images/Music%20info%20app.png)
 
 
 ## Teknologiat
