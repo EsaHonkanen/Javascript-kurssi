@@ -36,7 +36,7 @@ En törmännyt bugeihin testauksessa.
 
 ## Kuvakaappaukset
 Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta  
-[Music info app](images/Music%20info%20app.png)
+![Music info app](images/Music%20info%20app.png)
 
 
 ## Teknologiat
