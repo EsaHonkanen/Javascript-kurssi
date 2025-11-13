@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #f5f5f5;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 250px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #e91e63;
+  color: white;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+button:hover {
+  background: #ff4081;
+}
+
+#albums {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.album {
+  background: #1e1e1e;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.album img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.artist-info {
+  margin-top: 1rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}

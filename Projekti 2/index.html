@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Info App – Last.fm API</title>
+  <!-- Liitetään ulkoinen CSS-tyylitiedosto -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎵 Music Info App (Last.fm)</h1>
+  <p>Hae artistin tietoja ja albumeja Last.fm:stä</p>
+
+  <!-- Käyttäjän hakukenttä ja hakupainike -->
+  <input type="text" id="artistInput" placeholder="Esim. Daft Punk">
+  <button id="searchBtn">Hae</button>
+
+  <!-- Tänne lisätään artistin tiedot dynaamisesti -->
+  <div class="artist-info" id="artistInfo"></div>
+  <!-- Tänne lisätään albumit dynaamisesti -->
+  <div id="albums"></div>
+
+  <script>
+    // 🔑 Lisää tähän oma Last.fm API key
+    const apiKey = "9bb5d7e2f4d24efeb8dbd8be973743d8";
+
+    // Haetaan viittaus hakupainikkeeseen ja lisätään klikkauskuuntelija
+    document.getElementById("searchBtn").addEventListener("click", () => {
+      const artist = document.getElementById("artistInput").value.trim();
+      // Jos kenttä ei ole tyhjä, haetaan data
+      if (artist) fetchArtistData(artist);
+    });
+
+    // 🧠 Funktio hakee artistin ja albumien tiedot Last.fm API:sta
+    async function fetchArtistData(artist) {
+      // API:n URL:t: yksi artistin tietoihin ja toinen albumeihin
+      const artistUrl = `https://ws.audioscrobbler.com/2.0/?method=artist.getInfo&artist=${encodeURIComponent(artist)}&api_key=${apiKey}&format=json`;
+      const albumUrl = `https://ws.audioscrobbler.com/2.0/?method=artist.getTopAlbums&artist=${encodeURIComponent(artist)}&api_key=${apiKey}&format=json`;
+
+      try {
+        // Haetaan molemmat API-kutsut samanaikaisesti (nopeampaa)
+        const [artistRes, albumRes] = await Promise.all([
+          fetch(artistUrl),
+          fetch(albumUrl)
+        ]);
+
+        // Muutetaan vastaukset JSON-muotoon
+        const artistData = await artistRes.json();
+        const albumData = await albumRes.json();
+
+        // Kutsutaan funktioita, jotka päivittävät tiedot sivulle
+        displayArtist(artistData.artist);
+        displayAlbums(albumData.topalbums.album);
+
+      } catch (err) {
+        console.error(err);
+        document.getElementById("artistInfo").innerHTML = "<p>Virhe haettaessa tietoja.</p>";
+      }
+    }
+
+    // 🎤 Näyttää artistin nimen, kuvan ja biografian
+    function displayArtist(artist) {
+      const infoDiv = document.getElementById("artistInfo");
+      infoDiv.innerHTML = `
+        <h2>${artist.name}</h2>
+        <img src="${artist.image[3]['#text']}" alt="${artist.name}">
+        <p>${artist.bio.summary}</p>
+      `;
+    }
+
+    // 💿 Näyttää artistin suosituimmat albumit
+    function displayAlbums(albums) {
+      const container = document.getElementById("albums");
+      container.innerHTML = ""; // Tyhjennetään vanhat tulokset
+
+      // Näytetään vain 12 ensimmäistä albumia
+      albums.slice(0, 12).forEach(album => {
+        const div = document.createElement("div");
+        div.classList.add("album");
+
+        // Luodaan HTML-yksittäiselle albumille
+        div.innerHTML = `
+          <img src="${album.image[3]['#text']}" alt="${album.name}">
+          <h3>${album.name}</h3>
+          <p>${album.playcount} kuuntelua</p>
+        `;
+
+        container.appendChild(div);
+      });
+    }
+  </script>
+</body>
+</html>
