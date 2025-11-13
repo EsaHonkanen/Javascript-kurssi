@@ -3,14 +3,14 @@ Artist info app , tekijä: Esa Honkanen
 
 ## Verkkolinkit:
 Pääset julkaistuun sovellukseen käsiksi osoitteessa [artistinfoapp](https://artistinfoapp.netlify.app/)
-Linkki projektin videoesittelyyn [google.com](https://google.com)
+Linkki projektin videoesittelyyn [Videoesittely](https://video.laurea.fi/media/Artist%20info%20app%20esittely/0_or9inj09)
 
 ## Työn jakautuminen 
 Tein sovelluksen yksin.
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
 Mielestäni onnistuin projektissa aika hyvin. Tietoa täytyi etsiä runsaasti, koska välillä tuntui että oma osaaminen ei ihan riitä.
-Jotain pieniä parannuksia olisi voinut olla esim: kun kuuntelukerrat ovat suuria (miljoonia) numeropätkä, jossa on kaikki numerot putkeen on hieman vaikealukuinen.
+Jotain pieniä parannuksia olisi voinut olla esim: kun kuuntelukerrat ovat suuria (miljoonia), numeropätkä jossa on kaikki numerot putkeen on hieman vaikealukuinen. En myöskään saanut artistien kuvia lisättyä sivulle.
 Antaisin itselleni pisteitä seuraavasti: 8/10 p
 
 ## Palaute opettajalle kurssista sekä itse opetuksesta tähän saakka
@@ -48,6 +48,6 @@ Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi
 - Tai mene osoitteeseen: (https://artistinfoapp.netlify.app/)
 
 ## Kiitokset
-Projektissa on hyödynnetty kurssilla opittua sekä erityisesti edellistä tehtävää Workshop 7. Apuna on käytetty youtubesta löytyviä tutoriaaleja sekä chatGPT:tä. Chatgpt:llä etsitty yksittäisiä korjauksia mitä en youtubesta löytänyt.
+Projektissa on hyödynnetty kurssilla opittua sekä mm: edellistä tehtävää Workshop 7. Apuna on käytetty youtubesta löytyviä tutoriaaleja sekä chatGPT:tä. Chatgpt:llä etsitty yksittäisiä korjauksia mitä en youtubesta löytänyt.
 
 
