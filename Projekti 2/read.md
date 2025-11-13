@@ -36,9 +36,8 @@ En törmännyt bugeihin testauksessa.
 
 ## Kuvakaappaukset
 Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta  
-`![Kirjoittaminen](https://unsplash.com/photos/VBPzRgd7gfc)`
+[Music info app](images/Music%20info%20app.png)
 
-Kuva: [Kelly Sikkema](https://unsplash.com/@kellysikkema)
 
 ## Teknologiat
 Projektissa on käytetty Html, javascript ja css kieliä.
@@ -49,6 +48,6 @@ Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi
 - Tai mene osoitteeseen: 
 
 ## Kiitokset
-Lista lähteistä ja esimerkeistä, joita käytit projektin aikana. Mainitse myös, jos käytit ChatGPT:tä tai muita tekoälytyökaluja koodauksen aikana ja kerro, miten ne auttoivat sinua.  
-- [John Doe](johndoe.com)  
-- [Beginners guide to BEM](link-goes-here.com)  
+Projektissa on hyödynnetty kurssilla opittua sekä erityisesti edellistä tehtävää Workshop 7. Apuna on käytetty youtubesta löytyviä tutoriaaleja sekä chatGPT:tä. Chatgpt:llä etsitty yksittäisiä korjauksia mitä en youtubesta löytänyt.
+
+
