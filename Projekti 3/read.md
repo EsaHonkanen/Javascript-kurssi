@@ -42,5 +42,5 @@ Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi
 
 ## Kiitokset
 Projektissa hyödynnetty kurssilla opittua, Youtube tutoriaaleja sekä ChatGPT:tä.
-
+Tekoälyä hyödynnetty jos en ole löytänyt vastauksia materiaaleista tai youtubesta.
 
