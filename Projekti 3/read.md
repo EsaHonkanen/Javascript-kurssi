@@ -2,7 +2,7 @@
 jQuery artist info app, Esa Honkanen
 
 ## Verkkolinkit:
-Pääset julkaistuun sovellukseen käsiksi osoitteessa [google.com](https://google.com)
+Pääset julkaistuun sovellukseen käsiksi osoitteessa [jqueryartistinfoapp](https://jqueryartistinfoapp.netlify.app/)
 
 ## Työn jakautuminen 
 Tein sovelluksen itse.
@@ -38,7 +38,7 @@ Projektissa on käytetty mm. HTML, Tailwind CSS, JavaScript, jQuery, Axios, ja L
 ## Asennus
 Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi:  
 - lataa kaikki tiedostot ja avaa index.html selaimessasi  
-- Tai mene osoitteeseen: (https://artistinfoapp.netlify.app/)
+- Tai mene osoitteeseen: (https://jqueryartistinfoapp.netlify.app/)
 
 ## Kiitokset
 Projektissa hyödynnetty kurssilla opittua, Youtube tutoriaaleja sekä ChatGPT:tä.
