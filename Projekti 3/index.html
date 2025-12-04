@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artist Info App – Last.fm API</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen p-6">
+
+  <h1 class="text-4xl font-bold text-center mb-4">
+    🎵 Artist Info App
+  </h1>
+  <p class="text-center mb-6 text-gray-300">Hae artistin tietoja ja albumeja Last.fm:stä</p>
+
+  <!-- Hakukenttä ja nappi -->
+  <div class="flex justify-center gap-2 mb-8">
+    <input 
+      type="text" 
+      id="artistInput" 
+      placeholder="Esim: Drake"
+      class="px-4 py-2 w-64 rounded-lg bg-gray-800 border border-gray-700 text-white focus:ring-2 focus:ring-pink-500"
+    >
+    <button 
+      id="searchBtn"
+      class="px-4 py-2 bg-pink-600 hover:bg-pink-700 rounded-lg text-white font-semibold"
+    >
+      Hae
+    </button>
+  </div>
+
+  <!-- Artistin tiedot -->
+  <div id="artistInfo" class="max-w-2xl mx-auto text-center mb-10"></div>
+
+  <!-- Albumit -->
+  <div 
+    id="albums" 
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+  </div>
+
+<script>
+  const apiKey = "9bb5d7e2f4d24efeb8dbd8be973743d8";
+
+  // Haku napilla
+  $("#searchBtn").on("click", function() {
+    const artist = $("#artistInput").val().trim();
+    if (artist) fetchArtistData(artist);
+  });
+
+  // Haetaan artistin tiedot Axiosilla
+  async function fetchArtistData(artist) {
+    const artistUrl = `https://ws.audioscrobbler.com/2.0/?method=artist.getInfo&artist=${encodeURIComponent(artist)}&api_key=${apiKey}&format=json`;
+    const albumUrl = `https://ws.audioscrobbler.com/2.0/?method=artist.getTopAlbums&artist=${encodeURIComponent(artist)}&api_key=${apiKey}&format=json`;
+
+    try {
+      const [artistRes, albumRes] = await Promise.all([
+        axios.get(artistUrl),
+        axios.get(albumUrl)
+      ]);
+
+      displayArtist(artistRes.data.artist);
+      displayAlbums(albumRes.data.topalbums.album);
+
+    } catch (err) {
+      console.error(err);
+      $("#artistInfo").html("<p class='text-red-400'>Virhe haettaessa tietoja.</p>");
+    }
+  }
+
+  // Artistin tiedot
+  function displayArtist(artist) {
+    $("#artistInfo").html(`
+      <h2 class="text-3xl font-bold mb-4">${artist.name}</h2>
+      <img 
+        src="${artist.image[3]['#text']}" 
+        alt="${artist.name}" 
+        class="mx-auto rounded-lg shadow-lg mb-4 w-60"
+      >
+      <p class="text-gray-300 leading-relaxed">${artist.bio.summary}</p>
+    `);
+  }
+
+  // Albumikortit
+  function displayAlbums(albums) {
+    const container = $("#albums");
+    container.empty();
+
+    albums.slice(0, 12).forEach(album => {
+      const card = $(`
+        <div class="bg-gray-800 p-4 rounded-xl shadow-md hover:shadow-lg transition">
+          <img src="${album.image[3]['#text']}" 
+               class="rounded-md mb-3 w-full h-48 object-cover" 
+               alt="${album.name}">
+          <h3 class="text-lg font-semibold">${album.name}</h3>
+          <p class="text-sm text-gray-400">${album.playcount} kuuntelua</p>
+        </div>
+      `);
+
+      container.append(card);
+    });
+  }
+</script>
+
+</body>
+</html>
