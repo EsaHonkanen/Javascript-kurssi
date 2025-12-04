@@ -27,7 +27,7 @@ Kurssi on ollut tähän mennessä hyvä ja lähiopetuksesta on ainakin itselle o
 - [Lisenssi](#lisenssi)
 
 ## Tietoja sovelluksesta
-jQuery artist info app on sama kuin projekti 2 sovellus, mutta on toteutettu käyttäen jQuerya, AJAX kutsut tehdään axioxin avulla sekä sovelluksen visuaalisuus hoidetaan tailwindilla, joten erillistä CSS tiedostoa ei tarvita.
+jQuery artist info app on sama kuin projekti 2 sovellus, mutta on toteutettu käyttäen jQuerya, AJAX kutsut tehdään axioxin avulla sekä sovelluksen visuaalisuus hoidetaan tailwindilla, joten erillistä CSS tiedostoa ei tarvita. Sovelluksen perusidea on, että voit etsiä tietoa haluamastasi artistista.
 
 ## Tunnetut virheet/bugit
 -
